@@ -1,4 +1,4 @@
-## Covid-19-India-Tracker <img src="resources/hospital.png" alt="covid" width="30px" align="center">
+## Covid-19-India-Tracker <img src="readme_resources/hospital.png" alt="covid" width="30px" align="center">
 ![Python 3.7](https://img.shields.io/badge/Python-3.7-brightgreen.svg) ![streamlit](https://img.shields.io/badge/Library-Streamlit-red) ![pandas](https://img.shields.io/badge/Library-Pandas-blue) ![scipy](https://img.shields.io/badge/Library-SciPy-9cf)
 - This is a Covid-19 Web App which displays information of covid cases-19 in India
 - Shows total/daily Confirmed, Active, Recovered and Deaths
@@ -20,7 +20,7 @@ Link to deployed web app : _https://covid-19-india-tracker-pred.herokuapp.com/_
 
 A glimpse of the web app:
 
-<img src="resources/Covid-1.png" alt="covid-1" align="left" width="900" height="400">
-<img src="resources/Covid-2.png" alt="covid-2" align="left" width="900" height="400">
-<img src="resources/Covid-3.png" alt="covid-3" align="left" width="900" height="400"> 
-<img src="resources/Covid-4.png" alt="covid-4" align="left" width="900" height="400"> 
+<img src="readme_resources/Covid-1.png" alt="covid-1" align="left" width="900" height="400">
+<img src="readme_resources/Covid-2.png" alt="covid-2" align="left" width="900" height="400">
+<img src="readme_resources/Covid-3.png" alt="covid-3" align="left" width="900" height="400"> 
+<img src="readme_resources/Covid-4.png" alt="covid-4" align="left" width="900" height="400"> 
