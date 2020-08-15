@@ -21,3 +21,6 @@ Please do ⭐ the repository, if it helped you in anyway. <br /> <br />
 A glimpse of the web app:
 
 <img src="readme_resources/Covid-1.png" alt="covid-1" align="left" width="1000" height="500">
+<img src="readme_resources/Covid-2.png" alt="covid-2" align="left" width="1000" height="500">
+<img src="readme_resources/Covid-3.png" alt="covid-3" align="left" width="1000" height="500">
+<img src="readme_resources/Covid-4.png" alt="covid-4" align="left" width="1000" height="500">
