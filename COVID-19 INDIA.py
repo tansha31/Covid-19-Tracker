@@ -10,7 +10,7 @@ sir_img = Image.open('SIR.png')
 video = open('Covid.mp4','rb')
 video_bytes = video.read()
 
-#df = pd.read_csv('https://api.covid19india.org/csv/latest/case_time_series.csv')
+run = pd.read_csv('https://api.covid19india.org/csv/latest/case_time_series.csv')
 
 #st.title("Covid-19 India")
 st.markdown("<h1 style='text-align: center; color: black; font-size : 3rem'>Covid-19 India</h2>", unsafe_allow_html=True)
@@ -19,7 +19,7 @@ st.markdown("<h1 style='text-align: center; color: black; font-size : 3rem'>Covi
 
 
 @st.cache
-def load_data():
+def load_data(shape):
     df = pd.read_csv('https://api.covid19india.org/csv/latest/case_time_series.csv')
     df['Date_time'] = df['Date'].apply(lambda dt : dt + ' 2020')
     df['Date_time'] = pd.to_datetime(df['Date_time'])
@@ -39,7 +39,7 @@ def load_data():
 
     return df.set_index('Date_time'), df_state[1:], df_district, df_helpline
 
-df, df_state, df_district, df_helpline = load_data()
+df, df_state, df_district, df_helpline = load_data(run.shape[0])
 
 
 st.subheader('Last updated on ' + df['Date'][df.shape[0]-1])
