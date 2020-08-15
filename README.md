@@ -17,7 +17,7 @@ Link to deployed web app : _https://covid-19-india-tracker-pred.herokuapp.com/_
 4. Open console in same folder as project and type `streamlit run 'COVID-19 INDIA.py'`
 
 ---
-
+Please do ⭐ the repository, if it helped you in anyway. <br /> <br />
 A glimpse of the web app:
 
 <img src="readme_resources/Covid-1.png" alt="covid-1" align="left" width="1000" height="500">
