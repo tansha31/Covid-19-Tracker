@@ -21,4 +21,3 @@ Link to deployed web app : _https://covid-19-india-tracker-pred.herokuapp.com/_
 A glimpse of the web app:
 
 <img src="readme_resources/Covid-1.png" alt="covid-1" align="left" width="1000" height="500">
-<img src="readme_resources/Covid-2.png" alt="covid-2" align="left" width="1000" height="500"> 
